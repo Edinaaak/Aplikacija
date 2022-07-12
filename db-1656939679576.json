@@ -1,0 +1,59 @@
+{
+  "podaci": [
+    {
+      "email": "edina",
+      "password": "kucevic",
+      "id": 1
+    },
+    {
+      "email": "mirso",
+      "password": "pejcinovic",
+      "id": 2
+    },
+    {
+      "email": "eminak",
+      "password": "belmin",
+      "id": 3
+    },
+    {
+      "email": "edi",
+      "password": "kucevic",
+      "id": 4
+    },
+    {
+      "email": "edi",
+      "password": "kucevic",
+      "id": 5
+    },
+    {
+      "email": "edinakucevic",
+      "password": "deina",
+      "id": 6
+    },
+    {
+      "email": "edinakucevic",
+      "password": "deina",
+      "id": 7
+    },
+    {
+      "email": "emina",
+      "password": "kce",
+      "id": 8
+    },
+    {
+      "email": "edinakucevic",
+      "password": "deina",
+      "id": 9
+    },
+    {
+      "email": "edinakucevic",
+      "password": "deina",
+      "id": 10
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 11
+    }
+  ]
+}

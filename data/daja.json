@@ -1,0 +1,85 @@
+
+{ 
+    
+    "blogs": [
+      {
+        "title": "Citroen",
+        "df": "Day from",
+        "price": "$15",
+        "1day":"1 Day / $15",
+        "2day":"2-5 Days / $25",
+        "3day":"6-12 Days / 50$",
+        "4day":"20 + Days / 64$",
+        "engine": " Engine 1000cc",
+        "passengers": "5",
+        "doors": "2",
+        "gearbox": " Manual",
+        "gasoline": " Gasoline",
+        "id": 1
+      },
+      {
+        "title": "Mercedes C-class",
+        "df": "Day from",
+        "price": "$15",
+        "day1":"1 Day / $15",
+        "day2":"2-5 Days / $25",
+        "day3":"6-12 Days / 50$",
+        "day4":"20 + Days / 64$",
+        "engine": " Engine 1000cc",
+        "passengers": "5",
+        "doors": "2",
+        "gearbox": " Manual",
+        "gasoline": " Gasoline",
+        "id": 2
+      },
+      {
+        "title": "BMW",
+        "df": "Day from",
+        "price": "$15",
+        "day1":"1 Day / $15",
+        "day2":"2-5 Days / $25",
+        "day3":"6-12 Days / 50$",
+        "day4":"20 + Days / 64$",
+        "engine": " Engine 1000cc",
+        "passengers": "5",
+        "doors": "2",
+        "gearbox": " Manual",
+        "gasoline": " Gasoline",
+        "id": 3
+      },
+      {
+        "title": "Nissan",
+        "df": "Day from",
+        "price": "$15",
+        "day1":"1 Day / $15",
+        "day2":"2-5 Days / $25",
+        "day3":"6-12 Days / 50$",
+        "day4":"20 + Days / 64$",
+        "engine": " Engine 1000cc",
+        "passengers": "5",
+        "doors": "2",
+        "gearbox": " Manual",
+        "gasoline": " Gasoline",
+        "id": 4
+      },
+      {
+        "title": "WV Golf 5",
+        "df": "Day from",
+        "price": "$15",
+        "day1":"1 Day / $15",
+        "day2":"2-5 Days / $25",
+        "day3":"6-12 Days / 50$",
+        "day4":"20 + Days / 64$",
+        "engine": " Engine 1000cc",
+        "passengers": "5",
+        "doors": "2",
+        "gearbox": " Manual",
+        "gasoline": " Gasoline",
+        "id": 5
+      }
+  
+  
+  
+
+    ]
+  }

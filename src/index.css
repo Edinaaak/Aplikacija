@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* 
+{
+  margin: 0;
+  font-family: "Quicksand";
+  color: black;
+
+}
+
+.navbar 
+{
+  padding: 10px;
+  display: flex;
+  align-items:center;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.navbar h1{
+  color: orangered;
+  margin-left: 10px;
+}
+.navbar .links 
+{
+  margin-left:auto;
+}
+
+.navbar a
+{
+margin-left: 16px;
+text-decoration: none;
+padding: 6px;
+}
+.navbar a:hover
+ {
+  color: orangered;
+ }
+
+ .content
+ {
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 10px;
+ }
+
+  .cena p:nth-child(2)
+  {
+    margin-right: 8px;
+  }
+ button
+ {
+  color: #333;
+  background-color: orangered;
+  border-radius: 5px;
+  border-style: none;
+  display: flex;
+  margin: 5px 0;
+
+ }
+
+ .blog-preview
+ {
+ 
+  border-bottom: 1px solid #fafafa;
+  width: 280px;
+  height: 300px;
+  text-align: center;
+  box-shadow: 1px 2px 3px rgba(0,0,0,1);
+  border-radius: 3px;
+  margin: 8px;
+  
+  
+  
+ }
+.blog-preview .auto
+{
+  width: 250px;
+  height: 150px;
+}
+.blog-preview .auto img
+{
+  width: 250px;
+  height: 150px;
+  margin-left: 15px;
+}
+ .blog-list
+ {
+  max-width:1000px;
+  height: auto;
+  display: flex;
+  margin-right: 20px;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+ }
+ .blog-preview:hover
+ {
+  box-shadow: 2px 4px 6px rgba(0,0,0,1);
+ }
+
+ .blog-preview p
+ {
+  
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+ }
+ .Line
+ {
+  max-width: 1000px;
+  height: 30px;
+  background-color: black;
+  display: flex;
+  color: white;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .Line .first
+ {
+  
+  display: flex;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 5px;
+ }
+ .Line img
+ {
+  max-width: 80%;
+  width: 15px;
+  height: 14px;
+  margin-top: 4px;
+  margin-left: 13px;
+ }
+
+ .Line p
+ {
+  margin-left: 5px;
+  font-size: 12px;
+  color: white;
+  margin-top: 3px;
+ }
+
+ .Line .second
+ {
+  display: flex;
+  font-size: 12px;
+  padding: 6px;
+ }
+
+ .home img
+ {
+  width: 100%;
+  height: 500px;
+ }
+ .wallpaper
+ {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+ }
+ .wallpaper p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+ }
+ .wallpaper b
+ {
+  color: white;
+ }
+ .wallpaper h5
+ {
+  color: white;
+ }
+ 
+ .linija
+
+ {
+  width: 270px;
+  height: 2.5px;
+  background-color: #ff4500;
+  text-align: center;
+  margin: 15px 0 10px 3px;
+  border-radius: 5px;
+
+  
+ }
+ .cena
+ {
+  display: flex;
+  justify-content: space-between;
+ }
+ .cena p:nth-child(1)
+{
+  font-size: 17px;
+  margin-top: 10px;
+}
+.cena p:nth-child(2)
+{
+  font-size: 30px;
+}
+
+.blog-preview button
+{
+  
+  background-color: #ff4500;
+  margin:10px auto;
+  color: white;
+}
+.blog-preview a
+{
+  text-decoration: none;
+}
+.blog-details h2 {
+  font-size: 20px;
+  color: #ff4500;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background: #ff4500;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.main
+{
+  display: flex;
+  width: 1000px;
+  height: 500px;
+  box-shadow: 1px 2px 3px #333;
+
+}
+.pozadina
+{
+  position: relative;
+  text-align: center;
+  max-width: 500px;
+}
+.main img
+{
+  width: 500px;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+}
+.text
+{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  
+
+}
+.text p
+{
+  padding: 10px;
+  font-size: 20px;
+  color: black
+}
+.text h1
+{
+  font-size: 31px;
+  color: black
+}
+.forma h3
+{
+  color: #ff4500;
+  font-size: 30px;
+  margin-top: 80px;
+  
+}
+.forma
+{
+  display: block;
+  width: 500px;
+  position: relative;
+  text-align: center;
+}
+
+.forma form
+{
+ 
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.forma label
+{
+  
+  display: block;
+  text-align: left;
+  margin-left: 8px;
+  margin-top: 5px;
+
+}
+.forma input :invalid ~ span
+{
+  display: block
+}
+.forma input
+{
+  margin: 8px;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 25px;
+  border-radius: 10px;
+}
+.check 
+{
+  display: flex;
+  margin-top: 230px;
+  
+}
+
+.check input
+{
+  width: 15px;
+  margin-left: 125px;
+  
+}
+input[type='checkbox'] {
+  accent-color: orangered;
+}
+.check label
+{
+  font-size: 12px;
+  margin-top: 12px;
+
+}
+.forma button
+{
+  margin-left: 215px;
+  width: 100px;
+  color: white;
+  height: 25px;
+  font-size: 16px;
+  padding: 2px 22px;
+
+}
+.forma button:hover
+{
+  background-color: #e24207;
+}
+.footer
+{
+  max-width: 1000px;
+  background-color: black;
+  height: 30px;
+  justify-content: flex-end;
+  margin: 0 auto;
+  
+}
+.footer p
+{
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 5px;
+}
+.aboutus .first
+{
+  display: flex;
+    max-width: 1000px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+}
+.aboutus .first img
+{
+  width: 40%;
+  height: auto;
+}
+.first .paragraf1
+{
+  margin-top:40px;
+  margin-left: 20px;
+  max-width: 500px;
+}
+.aboutus .second
+{
+  max-width: 1000px;
+  margin-top: 50px;
+  text-align: center;
+  margin: 5px;
+}
+.aboutus .second p
+{
+  margin-top: 20px;
+}
+.chooseus
+{
+  display: flex;
+  max-width: 1000px;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;}
+.chooseus img
+{
+  width: 50%;
+  height: 300px;
+}
+.chooseus .paragraf2
+{
+  max-width: 500px;
+  width: 500px;
+}
+
+.chooseus .paragraf2 p
+{
+ margin: 20px;
+}
+
+.prikaz
+{
+  display: flex;
+  max-width: 1000px;
+
+}
+.prikaz img
+{
+  width:65%;
+  margin-left: 20px;
+  visibility: visible;
+}
+.prikaz form input, button
+{
+  margin: 5px 0 40px 80px;
+  
+}
+.prikaz form
+{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.cards img
+{
+  width: 100px;
+  height: 100px;
+  margin: 10px 0 0 0;
+}
+.card4 img{
+ margin-left: 10px;
+}
+.cards p, h3
+{
+  text-align: center;
+  padding: 10px;
+}
+.cards h3
+{
+  color: orangered;
+}
+.cards
+{
+ 
+  margin-right: 20px;
+ 
+  
+}
+.card4
+{
+  width: 500px;
+  text-align: center;
+}
+
+.contactform
+{
+  display:flex;
+  max-width: 1000px;
+  height: auto;
+  margin: auto;
+  box-shadow: 1px 2px 3px #333;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contactform img
+{
+  width: 150;
+  height: 250px;
+  margin-top:40px;
+}
+.contactimg
+{
+  max-width: 400px;
+  height: 500px;
+  position: relative;
+  text-align: center;
+  background-color: #ffa273;
+}
+
+.contactimg  p
+{
+  position: absolute;
+  top:65%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.contactform .formC
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  max-width: 550px;
+}
+.formC form
+{
+  max-width: 400px;
+}
+
+.formC input
+{
+  border-radius: 3px;
+ width: 350px;
+  height: 30px;
+  margin: 5px;
+}
+.formC textarea
+{
+  border-radius: 3px;
+  width: 350px;
+  border: 2px solid #333;
+  margin: 5px;
+}
+ .kar
+{
+  width: 500px;
+  text-align: center;
+}
+
+
+.card1, .card2
+{
+  max-width: 1000px;
+  height: auto;
+  display: flex;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
